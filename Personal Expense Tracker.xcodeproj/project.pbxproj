@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1665DCA7D7EB1172A738C975 /* Pods_Personal_Expense_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B47C3F3385630DE9D0902E /* Pods_Personal_Expense_Tracker.framework */; };
+		815A1F431FF0AC7F003F81C8 /* TransactionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815A1F421FF0AC7F003F81C8 /* TransactionsTableViewCell.swift */; };
+		815A1F451FF0AD6A003F81C8 /* ProjectGrade.txt in Resources */ = {isa = PBXBuildFile; fileRef = 815A1F441FF0AD6A003F81C8 /* ProjectGrade.txt */; };
 		E8091FA11FEAB625007F588C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8091FA01FEAB625007F588C /* AppDelegate.swift */; };
 		E8091FA31FEAB625007F588C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8091FA21FEAB625007F588C /* ViewController.swift */; };
 		E8091FA61FEAB625007F588C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8091FA41FEAB625007F588C /* Main.storyboard */; };
@@ -14,6 +17,16 @@
 		E8091FAB1FEAB625007F588C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8091FA91FEAB625007F588C /* LaunchScreen.storyboard */; };
 		E8091FB61FEAB625007F588C /* Personal_Expense_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8091FB51FEAB625007F588C /* Personal_Expense_TrackerTests.swift */; };
 		E8091FC11FEAB625007F588C /* Personal_Expense_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8091FC01FEAB625007F588C /* Personal_Expense_TrackerUITests.swift */; };
+		E8091FD11FEB135B007F588C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8091FD01FEB135B007F588C /* SignUpViewController.swift */; };
+		E8091FD31FEB1424007F588C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8091FD21FEB1424007F588C /* ProfileViewController.swift */; };
+		E8091FD51FEB970B007F588C /* Currency.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8091FD41FEB970B007F588C /* Currency.plist */; };
+		E84C39A41FEF8AAB00786C2D /* TransactionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84C39A31FEF8AAB00786C2D /* TransactionTableViewController.swift */; };
+		E8ABD3EE1FF09DFB00901B2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8ABD3ED1FF09DFB00901B2C /* GoogleService-Info.plist */; };
+		E8D0BF791FEE13B9003F174B /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D0BF7A1FEE13B9003F174B /* SwiftyJSON.framework */; };
+		E8DDD8F31FECD817001A962C /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DDD8F21FECD817001A962C /* DashBoardViewController.swift */; };
+		E8DDD8F51FECD82D001A962C /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DDD8F41FECD82D001A962C /* AccountsViewController.swift */; };
+		E8DDD8F71FECD848001A962C /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DDD8F61FECD848001A962C /* TransactionViewController.swift */; };
+		E8DDD8F91FEE0230001A962C /* BudgetCategories.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8DDD8F81FEE0230001A962C /* BudgetCategories.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E0584A0C6BB38368F7902E6 /* Pods-Personal Expense Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personal Expense Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Personal Expense Tracker/Pods-Personal Expense Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		815A1F421FF0AC7F003F81C8 /* TransactionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsTableViewCell.swift; sourceTree = "<group>"; };
+		815A1F441FF0AD6A003F81C8 /* ProjectGrade.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProjectGrade.txt; sourceTree = "<group>"; };
+		893AD264A1E7DEDAD5965643 /* Pods-Personal Expense Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personal Expense Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Personal Expense Tracker/Pods-Personal Expense Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		E5B47C3F3385630DE9D0902E /* Pods_Personal_Expense_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Personal_Expense_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8091F9D1FEAB625007F588C /* Personal Expense Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Expense Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8091FA01FEAB625007F588C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8091FA21FEAB625007F588C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,16 @@
 		E8091FBC1FEAB625007F588C /* Personal Expense TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personal Expense TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8091FC01FEAB625007F588C /* Personal_Expense_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_Expense_TrackerUITests.swift; sourceTree = "<group>"; };
 		E8091FC21FEAB625007F588C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8091FD01FEB135B007F588C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E8091FD21FEB1424007F588C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E8091FD41FEB970B007F588C /* Currency.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Currency.plist; sourceTree = "<group>"; };
+		E84C39A31FEF8AAB00786C2D /* TransactionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewController.swift; sourceTree = "<group>"; };
+		E8ABD3ED1FF09DFB00901B2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E8D0BF7A1FEE13B9003F174B /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DDD8F21FECD817001A962C /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		E8DDD8F41FECD82D001A962C /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		E8DDD8F61FECD848001A962C /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		E8DDD8F81FEE0230001A962C /* BudgetCategories.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BudgetCategories.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D0BF791FEE13B9003F174B /* SwiftyJSON.framework in Frameworks */,
+				1665DCA7D7EB1172A738C975 /* Pods_Personal_Expense_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +104,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A7FE60AA78A2FD49EBF3484 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0BF7A1FEE13B9003F174B /* SwiftyJSON.framework */,
+				E5B47C3F3385630DE9D0902E /* Pods_Personal_Expense_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9381142A2ACCCB684AF94F24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E0584A0C6BB38368F7902E6 /* Pods-Personal Expense Tracker.debug.xcconfig */,
+				893AD264A1E7DEDAD5965643 /* Pods-Personal Expense Tracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E8091F941FEAB625007F588C = {
 			isa = PBXGroup;
 			children = (
+				815A1F441FF0AD6A003F81C8 /* ProjectGrade.txt */,
 				E8091F9F1FEAB625007F588C /* Personal Expense Tracker */,
 				E8091FB41FEAB625007F588C /* Personal Expense TrackerTests */,
 				E8091FBF1FEAB625007F588C /* Personal Expense TrackerUITests */,
 				E8091F9E1FEAB625007F588C /* Products */,
+				9381142A2ACCCB684AF94F24 /* Pods */,
+				7A7FE60AA78A2FD49EBF3484 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +148,19 @@
 		E8091F9F1FEAB625007F588C /* Personal Expense Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				815A1F421FF0AC7F003F81C8 /* TransactionsTableViewCell.swift */,
+				E8091FA41FEAB625007F588C /* Main.storyboard */,
+				E8DDD8F81FEE0230001A962C /* BudgetCategories.plist */,
+				E8ABD3ED1FF09DFB00901B2C /* GoogleService-Info.plist */,
+				E8091FD41FEB970B007F588C /* Currency.plist */,
+				E84C39A31FEF8AAB00786C2D /* TransactionTableViewController.swift */,
 				E8091FA01FEAB625007F588C /* AppDelegate.swift */,
 				E8091FA21FEAB625007F588C /* ViewController.swift */,
-				E8091FA41FEAB625007F588C /* Main.storyboard */,
+				E8091FD21FEB1424007F588C /* ProfileViewController.swift */,
+				E8091FD01FEB135B007F588C /* SignUpViewController.swift */,
+				E8DDD8F21FECD817001A962C /* DashBoardViewController.swift */,
+				E8DDD8F41FECD82D001A962C /* AccountsViewController.swift */,
+				E8DDD8F61FECD848001A962C /* TransactionViewController.swift */,
 				E8091FA71FEAB625007F588C /* Assets.xcassets */,
 				E8091FA91FEAB625007F588C /* LaunchScreen.storyboard */,
 				E8091FAC1FEAB625007F588C /* Info.plist */,
@@ -132,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8091FC51FEAB625007F588C /* Build configuration list for PBXNativeTarget "Personal Expense Tracker" */;
 			buildPhases = (
+				7CAFF39C80C41E2E6B4CBD43 /* [CP] Check Pods Manifest.lock */,
 				E8091F991FEAB625007F588C /* Sources */,
 				E8091F9A1FEAB625007F588C /* Frameworks */,
 				E8091F9B1FEAB625007F588C /* Resources */,
+				4B578CB78232C1BDFDD5493D /* [CP] Embed Pods Frameworks */,
+				0D80A64024BE1E63D71F3769 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8091FAB1FEAB625007F588C /* LaunchScreen.storyboard in Resources */,
+				E8091FD51FEB970B007F588C /* Currency.plist in Resources */,
 				E8091FA81FEAB625007F588C /* Assets.xcassets in Resources */,
 				E8091FA61FEAB625007F588C /* Main.storyboard in Resources */,
+				E8DDD8F91FEE0230001A962C /* BudgetCategories.plist in Resources */,
+				815A1F451FF0AD6A003F81C8 /* ProjectGrade.txt in Resources */,
+				E8ABD3EE1FF09DFB00901B2C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +322,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D80A64024BE1E63D71F3769 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Personal Expense Tracker/Pods-Personal Expense Tracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B578CB78232C1BDFDD5493D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Personal Expense Tracker/Pods-Personal Expense Tracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Personal Expense Tracker/Pods-Personal Expense Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CAFF39C80C41E2E6B4CBD43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Personal Expense Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E8091F991FEAB625007F588C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8091FD31FEB1424007F588C /* ProfileViewController.swift in Sources */,
+				815A1F431FF0AC7F003F81C8 /* TransactionsTableViewCell.swift in Sources */,
+				E8091FD11FEB135B007F588C /* SignUpViewController.swift in Sources */,
+				E84C39A41FEF8AAB00786C2D /* TransactionTableViewController.swift in Sources */,
+				E8DDD8F31FECD817001A962C /* DashBoardViewController.swift in Sources */,
 				E8091FA31FEAB625007F588C /* ViewController.swift in Sources */,
+				E8DDD8F51FECD82D001A962C /* AccountsViewController.swift in Sources */,
 				E8091FA11FEAB625007F588C /* AppDelegate.swift in Sources */,
+				E8DDD8F71FECD848001A962C /* TransactionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +569,11 @@
 		};
 		E8091FC61FEAB625007F588C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E0584A0C6BB38368F7902E6 /* Pods-Personal Expense Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7739QEN48;
 				INFOPLIST_FILE = "Personal Expense Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.sdsu.vyshak.Personal-Expense-Tracker";
@@ -438,9 +585,11 @@
 		};
 		E8091FC71FEAB625007F588C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 893AD264A1E7DEDAD5965643 /* Pods-Personal Expense Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7739QEN48;
 				INFOPLIST_FILE = "Personal Expense Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.sdsu.vyshak.Personal-Expense-Tracker";
