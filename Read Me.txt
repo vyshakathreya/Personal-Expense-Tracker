@@ -1,6 +1,3 @@
-Name: Vyshak Athreya Bellur Keshavamurthy
-Red id: 820924384
-
 Personal Expense Tracker is an application which is used to monitor personal expenses in multiple currencies.
 
 Application is designed to run on phones.
